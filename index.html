@@ -284,7 +284,7 @@
 
 <script>
 // Куди надходять заявки: адреса веб-застосунку Google Apps Script (закінчується на /exec)
-const FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbxoFH1u34q6hi6mef0_E6pHKhaIV3y0T9cl1jOXldCEm5efvDLaFAi94oEpijZyK1Zw/exec";
+const FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbz0_rBV4632rgaUeDN2ijflJBIRzk3BRGOyzqXlUKdbMSEustiKDXxaiDmWi4WRUq_k/exec";
 const phoneEl = document.getElementById("poPhone");
 phoneEl.addEventListener("input", () => { const v = phoneEl.value.replace(/\D/g, "").slice(0, 12); if (v !== phoneEl.value) phoneEl.value = v; });
 phoneEl.addEventListener("keydown", (e) => { if (e.key.length === 1 && !/\d/.test(e.key) && !e.ctrlKey && !e.metaKey) e.preventDefault(); });
